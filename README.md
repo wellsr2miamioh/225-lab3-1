@@ -1,2 +1,2 @@
-# html_example
-A simple HTML page to build for a CI/CD pipeline Example  This assignment adds a Jenkinsfile.  Deployment is to a NodePort.
+# lab3-1
+A simple HTML page to build for a CI/CD pipeline Example using a Jenkinsfile.  Deployment is to NodePort 32000 on ClusterIP.
