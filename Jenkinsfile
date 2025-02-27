@@ -10,7 +10,7 @@ pipeline {
         KUBECONFIG = credentials('wellsr2-225')                                             // <------change this
     }
 
-    stages 
+    stages {
         stage('Checkout') {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']],
